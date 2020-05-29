@@ -546,9 +546,8 @@ opacity: 0.5;
 .numero-20{
     position: absolute;
 height: 22.09px;
-left: 68.39%;
-right: 27.41%;
-top: calc(50% - 22.09px/2 + 61.18px);
+left: 945px;
+top: 400px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -566,9 +565,8 @@ opacity: 0.5;
 .numero-tres{
     position: absolute;
 height: 24.86px;
-left: 81.1%;
-right: 14.82%;
-top: calc(50% - 24.86px/2 + 61.18px);
+left: 1115px;
+top: 392px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -588,8 +586,7 @@ opacity: 0.5;
     position: absolute;
 height: 22.09px;
 left: 13.63%;
-right: 85.53%;
-top: calc(50% - 22.09px/2 + 60.05px);
+top: 460px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -607,9 +604,8 @@ opacity: 0.5;
 .img-5{
     position: absolute;
 height: 22.09px;
-left: 20.14%;
-right: 79.02%;
-top: calc(50% - 22.09px/2 + 53.05px);
+left: 265px;
+top:470px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -626,9 +622,8 @@ mix-blend-mode: normal;
 .Idontknow{
     position: absolute;
 height: 22.09px;
-left: 31.36%;
-right: 63.49%;
-top: calc(50% - 22.09px/2 + 61.18px);
+left: 409px;
+top:460px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -646,9 +641,8 @@ opacity: 0.5;
 .DeejayFly{
     position: absolute;
 height: 22.09px;
-left: 48.38%;
-right: 44.91%;
-top: calc(50% - 22.09px/2 + 61.18px);
+left: 640px;
+top:455px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -666,9 +660,8 @@ opacity: 0.5;
 .dura-cion{
     position: absolute;
 height: 22.09px;
-left: 68.39%;
-right: 27.41%;
-top: calc(50% - 22.09px/2 + 61.18px);
+left: 950px;
+top:445px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -686,9 +679,8 @@ opacity: 0.5;
 .repro-duccion{
     position: absolute;
 height: 24.86px;
-left: 81.1%;
-right: 14.82%;
-top: calc(50% - 24.86px/2 + 61.18px);
+left:1110px;
+top:458px;
 
 font-family: Montserrat;
 font-style: normal;

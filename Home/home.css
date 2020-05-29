@@ -4,8 +4,10 @@
     height: 83px;
     left: 0px;
     top: 0px;
-    
-    background: #000000;
+
+
+background: #000000;
+
 }
 
 .logo-mateify{
@@ -15,54 +17,35 @@
     left: 66px;
     top: 25px;
 }
-
 .nombre-mateify{
-position: absolute;
-width: 183px;
-height: 64px;
-left: 114px;
-margin-top:20px;
+    position: absolute;
+    width: 183px;
+    height: 64px;
+    left: 114px;
+    margin-top:20px;
 
-font-family: Righteous;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 40px;
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
+.usuario-mateify{
+    position: absolute;
+    width: 87px;
+    height: 30px;
+    left: 1200px;
+    top: 15px;
 
-.registrarse-mateify{
-position: absolute;
-width: 138px;
-height: 30px;
-left: 789px;
-top: 28px;
-right: 150%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 24px;
-
-color: #FFFFFF;
-}
-.iniciarsesion-mateify{
-position: absolute;
-width: 150px;
-height: 30px;
-left: 957px;
-top: 28px;
-right: 150%;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 24px;
-
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .text{
@@ -157,43 +140,47 @@ top: 612px;
 background: #000000;
 }
 
+.fondo{
+    position: absolute;
+    width: 100%;
+    background: #000000;
+}
 .text-footer{
-position: absolute;
-width: 242px;
-height: 30px;
-left: 66px;
-top: 641px;
+    position: absolute;
+    width: 242px;
+    height: 30px;
+    left: 66px;
+    top: 641px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
+
 }
-
 .text-footer2{
-position: absolute;
-width: 138px;
-height: 30px;
-left: 859px;
-top: 641px;
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 848px;
+    top: 641px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
-
-.logo-spotify{
-position: absolute;
-width: 111px;
-height: 67px;
-left: 986px;
-top: 622px;
+.logo-Spotify{
+    position: absolute;
+    width: 111px;
+    height: 67px;
+    left: 980px;
+    top: 666px;
 
 }

@@ -472,8 +472,7 @@ opacity: 0.5;
     position: absolute;
 height: 22.09px;
 left: 13.63%;
-right: 85.53%;
-top: calc(50% - 22.09px/2 + 60.05px);
+top:410px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -491,9 +490,8 @@ opacity: 0.5;
 .img-4{
     position: absolute;
 height: 22.09px;
-left: 20.14%;
-right: 79.02%;
-top: calc(50% - 22.09px/2 + 53.05px);
+left:265px;
+top:415px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -510,9 +508,8 @@ mix-blend-mode: normal;
 .Laughtillyoucry{
     position: absolute;
 height: 22.09px;
-left: 31.36%;
-right: 63.49%;
-top: calc(50% - 22.09px/2 + 61.18px);
+left:405px;
+top:410px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -530,9 +527,8 @@ opacity: 0.5;
 .Faydee{
     position: absolute;
 height: 22.09px;
-left: 48.38%;
-right: 44.91%;
-top: calc(50% - 22.09px/2 + 61.18px);
+left:650px;
+top:405px;
 
 font-family: Montserrat;
 font-style: normal;

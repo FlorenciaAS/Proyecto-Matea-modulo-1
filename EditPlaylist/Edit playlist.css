@@ -1,0 +1,39 @@
+.navbar-custom {
+    background-color: #000000;
+    border-bottom: 1px solid white;
+}
+/*logo matea*/
+.logo-mateify{
+    
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+/*Mateify*/
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+    width: 183px;
+    height: 64px;
+    margin-top: 5px;
+    margin-left: -40px;
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+/* Usuario*/
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 50px;
+    margin-top: 5px;
+}

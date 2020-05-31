@@ -1,521 +1,160 @@
+.body {
+	background-color: black;
+}
 .navbar-custom {
-    background-color: #000000;
-    border-bottom: 1px solid white;
+	background-color: #000000;
 }
 /*logo matea*/
-.logo-mateify{
-    
-    margin-left: 60px;
-    margin-bottom: 10px;
+.logo-mateify {
+	margin-left: 60px;
+	margin-bottom: 10px;
 }
 /*Mateify*/
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
-    width: 183px;
-    height: 64px;
-    margin-top: 5px;
-    margin-left: -40px;
+	color: #ffffff;
+	width: 183px;
+	height: 64px;
+	margin-top: 5px;
+	margin-left: -40px;
 
-    font-family: Righteous;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 5vh;
+	line-height: 40px;
 }
 
 /* Usuario*/
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(255,255,255,.8);
-    font-size: 20px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    margin-right: 50px;
-    margin-top: 5px;
+	color: rgba(255, 255, 255, .8);
+	font-size: 20px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	margin-right: 50px;
+	margin-top: 5px;
+}
+.line-navbar{
+    border-bottom: solid 1px rgba(101, 101, 101, 0.33);
+    margin-bottom: 15px;
+}
+.boton {
+	width: 213px;
+	height: 43px;
+	left: 889px;
+	top: 125px;
+
+	background: #1ed760;
+	border-radius: 42px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	border: none;
+
+	color: #ffffff;
+}
+.bloque-busqueda {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 80px;
+	margin-right: 70px;
+}
+.barra-busqueda {
+	width: 850px;
+	height: 43px;
+	left: 65px;
+	top: 125px;
+
+	background: #ffffff;
+	/* Dark 25% */
+
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 33px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+	/* or 133% */
+
+	color: #505054;
+}
+.bloque {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 150px;
 }
 
-.container2{
-    position: absolute;
-    width: 100%;
-    height: 110%;
-    left: 0px;
-    top: 83px;
-    
-    background: #000000;
+.container1 {
+	display: inline-block;
 }
-.barra-busqueda{
-    position: absolute;
-    width: 753px;
-    height: 43px;
-    left: 65px;
-    top: 50px;
-    
-    background: #FFFFFF;
+.container2 {
+	display: inline-block;
+}
+.container3 {
+	display: inline-block;
+}
+.container4 {
+	display: inline-block;
+}
+.container5 {
+	display: inline-block;
+}
+.container6 {
+	display: inline-block;
+}
 
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 33px;
-}
-.text-barra{
-    position: absolute;
-    width: 501.28px;
-    height: 15px;
-    left: 116.63px;
-    top: 42px;
+.name_playlist {
+	height: 10px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2.2vh;
+	line-height: 16px;
 
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 24px;
+	color: #ffffff;
+}
+.canciones {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.8vh;
+	line-height: 14px;
 
-    color: #505054;
-}
-button{
-    position: absolute;
-    width: 213px;
-    height: 43px;
-    left: 890px;
-    top: 50px;
-    font-family: Montserrat;font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2px;
-    text-transform: uppercase;
-    border:none;
+	color: #ffffff;
 
-    color: #FFFFFF;
-
-    background: #1ED760;
-    border-radius: 42px;
+	mix-blend-mode: normal;
+	opacity: 0.48;
 }
-h4{
-    position: absolute;
-    height: 28px;
-    left: 5.73%;
-    right: 86.57%;
-    top: 115px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;    
-    line-height: 22px;
-/* or 110% */
-
-
-    color: #FFFFFF;
+.bloque-dos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 20px;
 }
-.img1{
-    position: absolute;
-    left: 5.73%;
-    right: 83.13%;
-    top: 27%;
-    bottom: 43.16%;
-
-    background: url(03-Jonas-Brothers-press-2019-cr-Peggy-Sirota-billboard-1548.jpg), url(Image.png);
-    border-radius: 3px;
+.line-footer{
+    border: 1px solid rgba(101, 101, 101, 0.33);
+    margin-top: 15px;
 }
-.img2{
-    position: absolute;
-    left: 18.86%;
-    right: 70%;
-    top: 27%;
-    bottom: 43.16%;
-
-    background: url(I-Don-t-Care-English-2017-500x500.jpg), url(Image.png);
-    border-radius: 3px;
-
-}
-.img3{
-    position: absolute;
-    left: 31.99%;
-    right: 56.87%;
-    top: 27%;
-    bottom: 43.16%;
-    
-    background: url(image.jpg), url(Image.png);
-    border-radius: 3px;
-}
-.img4{
-    position: absolute;
-    left: 45.12%;
-    right: 43.73%;
-    top: 27%;
-    bottom: 43.17%;
-
-    background: url(R-12561311-1537641224-6829.jpeg.jpg);
-    border-radius: 3px;
-
-}
-.img5{
-    position: absolute;
-    left: 58.25%;
-    right: 30.6%;
-    top: 27%;
-    bottom: 43.19%;
-
-    background: url(d174fc347d44a5d280db44e5d611903b6395545f.jpg);
-    border-radius: 3px;
-
-}
-.img6{
-    position: absolute;
-    left: 71.39%;
-    right: 17.47%;
-    top: 27%;
-    bottom: 43.21%;
-
-    background: url(download.jpg);
-    border-radius: 3px;
-}   
-.img7{
-    position: absolute;
-    left: 84.52%;
-    right: 4.34%;
-    top: 27%;
-    bottom: 43.22%;
-
-    background: url(71z6F7HgdpL._SS500_.jpg);
-    border-radius: 3px;
-}
-.img8{
-    position: absolute;
-    left: 5.73%;
-    right: 83.12%;
-    top: 55%;
-    bottom: 14.08%;
-    
-    background: url(03-Jonas-Brothers-press-2019-cr-Peggy-Sirota-billboard-1548.jpg), url(Image.png);
-    border-radius: 3px;
-}
-.img9{
-    position: absolute;
-    left: 18.86%;
-    right: 69.99%;
-    top: 55%;
-    bottom: 14.08%;
-    
-    background: url(I-Don-t-Care-English-2017-500x500.jpg), url(Image.png);
-    border-radius: 3px;
-}
-.img10{
-    position: absolute;
-    left: 31.99%;
-    right: 56.86%;
-    top: 55%;
-    bottom: 14.08%;
-    
-    background: url(image.jpg), url(Image.png);
-    border-radius: 3px;
-}
-.img11{
-    position: absolute;
-    left: 45.12%;
-    right: 43.73%;
-    top: 55%;
-    bottom: 14.08%;
-    
-    background: url(R-12561311-1537641224-6829.jpeg.jpg);
-    border-radius: 3px;
-}
-.img12{
-    position: absolute;
-    left: 58.25%;
-    right: 30.6%;
-    top: 55%;
-    bottom: 14.08%;
-    
-    background: url(d174fc347d44a5d280db44e5d611903b6395545f.jpg);
-    border-radius: 3px;
-}
-.img13{
-    position: absolute;
-    left: 71.38%;
-    right: 17.47%;
-    top: 55%;
-    bottom: 14.08%;
-
-    border-radius: 3px;
-}
-.img14{
-    position: absolute;
-    left: 84.51%;
-    right: 4.34%;
-    top: 55%;
-    bottom: 14.08%;
-    border-radius: 3px;
-}
-.name_playlist-1{
-    position: absolute;
-    height: 20px;
-    left: 5.73%;
-    right: 83.16%;
-    top: 44%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    /* or 100% */
-
-color: white;
-}
-.canciones-1{
-    position: absolute;
-    height: 18px;
-    left: 5.73%;
-    right: 84.2%;
-    top: 46%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-    
-    mix-blend-mode: normal;
-    opacity: 0.48;
-}
-.name_playlist-2{
-    position: absolute;
-    height: 20px;
-    left: 18.93%;
-    right: 68.81%;
-    top: 44%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-}
-.canciones-2{
-
-    position: absolute;
-    height: 17.56px;
-    left: 18.86%;
-    right: 71.79%;
-    top: 46%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-    
-    mix-blend-mode: normal;
-    opacity: 0.48;
-}
-.name_playlist-3{
-    position: absolute;
-    height: 20px;
-    left: 31.99%;
-    right: 57.62%;
-    top: 44%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-}
-.canciones-3{
-    position: absolute;
-    height: 18px;
-    left: 31.99%;
-    right: 57.62%;
-    top: 46%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-    
-    mix-blend-mode: normal;
-    opacity: 0.48;
-}
-.name_playlist-4{
-    position: absolute;
-    height: 20px;
-    left: 45.16%;
-    right: 43.74%;
-    top: 44%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-}
-.canciones-4{
-    position: absolute;
-    height: 18px;
-    left: 45.16%;
-    right: 43.74%;
-    top: 46%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-    
-    mix-blend-mode: normal;
-    opacity: 0.48;
-}
-.name_playlist-5{
-    position: absolute;
-    height: 20px;
-    left: 58.27%;
-    right: 28.11%;
-    top:44%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 16px;
-    /* or 107% */
-    
-    
-    color: #FFFFFF;
-}
-.canciones-5{
-    position: absolute;
-    height: 18px;
-    left: 58.25%;
-    right: 30.57%;
-    top: 46%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-    
-    mix-blend-mode: normal;
-    opacity: 0.48;
-}
-.name_playlist-6{
-    position: absolute;
-    height: 20px;
-    left: 71.42%;
-    right: 17.48%;
-    top: 44%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-}
-.canciones-6{
-    position: absolute;
-    height: 18px;
-    left: 71.42%;
-    right: 17.48%;
-    top: 46%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-    
-    mix-blend-mode: normal;
-    opacity: 0.48;
-}
-.name_playlist-7{
-    position: absolute;
-    height: 20px;
-    left: 84.51%;
-    right: 6.77%;
-    top: 44%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-}
-.canciones-7{
-    position: absolute;
-    height: 18px;
-    left: 84.55%;
-    right: 4.77%;
-    top: 46%;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    /* or 100% */
-    
-    
-    color: #FFFFFF;
-    
-    mix-blend-mode: normal;
-    opacity: 0.48;
-}
-.fondo{
-    position: absolute;
-    width: 100%;
-    background: #000000;
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 .text-footer{
-    position: absolute;
+    display: inline-block;
     width: 242px;
     height: 30px;
     left: 66px;
@@ -530,26 +169,20 @@ color: white;
     color: #FFFFFF;
     
 }
-.text-footer2{
-    position: absolute;
-    width: 138px;
-    height: 30px;
-    left: 848px;
-    top: 641px;
-    
+
+.text-logo{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
+    text-align: right;
     
     color: #FFFFFF;
 }
+.text-footer2{
+    display: inline-block;
+}
 .logo-Spotify{
-    position: absolute;
-    width: 111px;
-    height: 67px;
-    left: 980px;
-    top: 666px;
-
+    display: inline-block;
 }

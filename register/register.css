@@ -1,0 +1,136 @@
+.container{
+    position: absolute;
+    width: 100%;
+    height: 83px;
+    left: 1px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    }
+    
+    .logo-mateify{
+    position: absolute;
+    width: 37px;
+    height: 33px;
+    left: 495px;
+    top: 25px;
+    }
+    .nombre-mateify{
+    position: absolute;
+    width: 183px;
+    height: 64px;
+    left: 543px;
+    top: 19px;
+    
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    
+    color: #000000;
+    }
+    
+    .text1{
+    position: absolute;
+    width: 342px;
+    height: 16px;
+    left: 405px;
+    top: 118px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    }
+    .barra-correo{
+    position: absolute;
+    width: 527px;
+    height: 57px;
+    left: 313px;
+    top: 170px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);box-sizing: border-box;border-radius: 33px;
+    }
+    .barra-confirmar{
+    position: absolute;
+    width: 527px;
+    height: 57px;
+    left: 313px;
+    top: 242px;
+    
+    background: #FFFFFF;
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 33px;
+    }
+    .barra-contraseña{
+    position: absolute;
+    width: 527px;
+    height: 57px;
+    left: 313px;
+    top: 314px;
+    
+    background: #FFFFFF;
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 33px;
+    }
+    .barra-nombre{
+    position: absolute;
+    width: 527px;
+    height: 57px;
+    left: 312px;
+    top: 387px;
+    
+    background: #FFFFFF;
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 33px;
+    }
+    .text-dia{
+    position: absolute;
+    width: 90px;
+    height: 56.43px;
+    left: 316px;
+    top: 490px;
+    
+    background: #FFFFFF;
+    
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 50px;
+    }
+    .text-mes{
+    position: absolute;
+    width: 211px;
+    height: 56.43px;
+    left: 431px;
+    top: 490.44px;
+    
+    background: #FFFFFF;
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 50px;
+    }
+    .text-año{
+    position: absolute;
+    width: 173px;
+    height: 56.43px;
+    left: 666px;
+    top: 490.44px;
+    
+    background: #FFFFFF;
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 50px;

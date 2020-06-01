@@ -1,0 +1,202 @@
+.body{
+    background-color: black;
+}
+.navbar-custom {
+    background-color: #000000;
+    
+}
+/*logo matea*/
+.logo-mateify{
+    
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+/*Mateify*/
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+    width: 183px;
+    height: 64px;
+    margin-top: 5px;
+    margin-left: -40px;
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+/* Usuario*/
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.line-navbar{
+    border: 1px solid rgba(101, 101, 101, 0.33);
+}
+
+.bloque-texto{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+
+
+.titulo{
+	display: flex;
+	width: 292px;
+height: 30px;
+margin-top: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 5.5vh;
+line-height: 46px;
+
+color: #FFFFFF;
+}
+.subtitulo{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 3.4vh;
+line-height: 27px;
+margin-top: 30px;
+color: #FFFFFF;
+}
+
+.bloque-songs{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-left: 146px;
+	margin-top: 40px;
+}
+.songs{
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 2.5vh;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+.bloque-tabla{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+table{
+    width: 78%;
+    height: 58px;
+    margin-top: 5px;
+    border-collapse: collapse;
+    overflow: hidden;
+    
+}
+td, th {
+    text-align: left;
+    padding: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(250, 248, 248);
+    
+    
+}
+
+.jaja{
+    background: #474545;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+
+}
+.jojo{
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+.show-more{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-sm{
+	display: inline;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 2vh;
+line-height: 16px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+}
+.img-sm{
+    width: 13.81px;
+height: 9.67px;
+margin-top: 6px;
+margin-left: 12px;
+
+}
+
+
+
+.line-footer{
+    border: 1px solid rgba(101, 101, 101, 0.33);
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+.text-footer{
+    display: inline-block;
+    width: 242px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    
+}
+
+.text-logo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+.text-footer2{
+    display: inline-block;
+}
+.logo-Spotify{
+    display: inline-block;
+}

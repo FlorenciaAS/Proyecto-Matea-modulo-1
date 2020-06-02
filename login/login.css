@@ -4,8 +4,11 @@ width: 100%;
 height: 83px;
 left: 1px;
 top: 0px;
-
+display: flex;
+flex-direction:row;
+justify-content:center;
 background: #FFFFFF;
+margin: auto;
 }
 
 .logo-mateify{
@@ -14,6 +17,7 @@ width: 37px;
 height: 33px;
 left: 495px;
 top: 25px;
+
 }
 .nombre-mateify{
 position: absolute;
@@ -21,6 +25,10 @@ width: 183px;
 height: 64px;
 left: 543px;
 top: 19px;
+display: flex;
+flex-direction:row;
+justify-content:center;
+margin: 25px 50px 75px 100px;
 
 font-family: Righteous;
 font-style: normal;
@@ -37,7 +45,10 @@ width: 279px;
 height: 16px;
 left: 451px;
 top: 117px;
-
+display: flex;
+flex-direction:row;
+justify-content:center;
+margin: 25px 50px 75px 100px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -45,7 +56,7 @@ font-size: 18px;
 line-height: 22px;
 
 color: #000000;
-    }
+}
 
 .barra-nombre{
 position: absolute;
@@ -53,9 +64,11 @@ width: 527px;
 height: 57px;
 left: 313px;
 top: 170px;
-
+display: flex;
+flex-direction:row;
+justify-content:center;
 background: #FFFFFF;
-
+margin: 25px 50px 75px 100px;
 border: 1px solid rgba(31, 32, 65, 0.25);
 box-sizing: border-box;
 border-radius: 33px;
@@ -68,15 +81,18 @@ line-height: 24px;
 
 color: rgba(31, 32, 65, 0.25);
 }
+
 .barra-contraseña{
 position: absolute;
 width: 527px;
 height: 57px;
 left: 313px;
 top: 237px;
-
+display: flex;
+flex-direction:row;
+justify-content:center;
 background: #FFFFFF;
-
+margin: 25px 50px 75px 100px;
 border: 1px solid rgba(31, 32, 65, 0.25);
 box-sizing: border-box;
 border-radius: 33px;
@@ -96,13 +112,14 @@ width: 29.17px;
 height: 29.17px;
 left: 313px;
 top: 319px;
-
+display: flex;
+flex-direction:row;
+justify-content:center;
 background: #FFFFFF;
-
+margin: 25px 50px 75px 100px;
 border: 1px solid rgba(31, 32, 65, 0.25);
 box-sizing: border-box;
 border-radius: 4px;
-
 }
 
 .botton-text{
@@ -111,13 +128,15 @@ width: 163px;
 height: 22px;
 left: 358px;
 top: 323px;
-
+display: flex;
+flex-direction:row;
+justify-content:center;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 24px;
-
+margin: 25px 50px 75px 100px;
 color: rgba(31, 32, 65, 0.5);
 }
 
@@ -127,10 +146,12 @@ width: 204px;
 height: 38px;
 left: 636px;
 top: 319px;
-
+display: flex;
+flex-direction:row;
+justify-content:center;
 background: #1ED760;
 border-radius: 42px;
-
+margin: 25px 50px 75px 100px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -146,8 +167,11 @@ width: 527px;
 height: 0px;
 left: 313px;
 top: 445px;
-
+display: flex;
+flex-direction:row;
+justify-content:center;
 border: 1px solid rgba(101, 101, 101, 0.33);
+margin: 25px 50px 75px 100px;
 }
 .text-cuenta{
 position: absolute;
@@ -155,8 +179,10 @@ width: 185px;
 height: 16px;
 left: 484px;
 top: 484px;
-    
-
+margin: 25px 50px 75px 100px;
+display: flex;
+flex-direction:row;
+justify-content:center;
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -171,12 +197,14 @@ width: 204px;
 height: 38px;
 left: 474px;
 top: 525px;
-
+display: flex;
+flex-direction:row;
+justify-content:center;
 background: #FFFFFF;
 border: 2px solid #000000;
 box-sizing: border-box;
 border-radius: 42px;
-
+margin: 25px 50px 75px 100px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;

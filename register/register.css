@@ -398,3 +398,55 @@ text-transform: uppercase;
 
 color: #000000;
 }
+.fondo{
+    
+    width: 100%;
+    height: 205px;
+    left: 0px;
+    top: 612px;
+    background: #000000;
+    }
+    
+    .line-footer{
+        border: 1px solid rgba(101, 101, 101, 0.33);
+        margin-top: 15px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: -15px;
+        margin-bottom: 10px;
+    }
+    .text-footer{
+        display: inline-block;
+        width: 242px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color:black;
+        
+    }
+    
+    .text-logo{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color:black;
+    }
+    .text-footer2{
+        display: inline-block;
+    }
+    .logo-Spotify{
+        display: inline-block;
+    }

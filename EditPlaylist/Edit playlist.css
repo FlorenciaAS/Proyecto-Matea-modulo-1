@@ -130,6 +130,21 @@ td, th {
     opacity: 0.5;
 
 }
+.img-votar{
+    filter:contrast(250%);
+}
+.img-votar:hover{
+    width: 25px;
+    height: 25px;
+    
+}
+.img_votar-margen:hover{
+    width: 25px;
+    height: 25px;
+}
+.img_votar-margen{
+    margin-left: 15px;
+}
 .show-more{
 	display: flex;
 	flex-direction: row;

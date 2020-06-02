@@ -133,12 +133,12 @@ td, th {
     
 }
 
-.jaja{
+.tabla-fila{
     background: #474545;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 
 }
-.jojo{
+.fila{
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.5;

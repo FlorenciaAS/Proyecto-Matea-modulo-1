@@ -134,3 +134,85 @@
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
     border-radius: 50px;
+    }
+.text-men{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 316px;
+    top: 581.44px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 346px;
+    top: 581.44px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: rgba(31, 32, 65, 0.25);
+    
+}
+
+.text-fem{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 447px;
+    top: 581.44px;
+    
+    background: #FFFFFF;
+
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.text-other{
+    position: absolute;
+    width: 33px;
+    height: 24px;
+    left: 609.74px;
+    top: 581px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    
+    
+    color: rgba(31, 32, 65, 0.25);
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 580px;
+    top: 581.44px;
+    
+    background: #FFFFFF;
+    
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.register{
+position: absolute;
+width: 191px;
+height: 38px;
+left: 480px;
+top: 647px;
+
+background: #1ED760;
+border-radius: 42px;   
+}

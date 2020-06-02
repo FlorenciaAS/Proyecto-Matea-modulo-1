@@ -1,78 +1,189 @@
 .container{
-    position: absolute;
-    width: 100%;
-    height: 83px;
-    left: 1px;
-    top: 0px;
-    
-    background: #FFFFFF;
+position: absolute;
+width: 100%;
+height: 83px;
+left: 1px;
+top: 0px;
+
+background: #FFFFFF;
+}
+
+.logo-mateify{
+position: absolute;
+width: 37px;
+height: 33px;
+left: 495px;
+top: 25px;
+}
+.nombre-mateify{
+position: absolute;
+width: 183px;
+height: 64px;
+left: 543px;
+top: 19px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+
+color: #000000;
+}
+
+.text-sesion{
+position: absolute;
+width: 279px;
+height: 16px;
+left: 451px;
+top: 117px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
     }
+
+.barra-nombre{
+position: absolute;
+width: 527px;
+height: 57px;
+left: 313px;
+top: 170px;
+
+background: #FFFFFF;
+
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 33px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+
+color: rgba(31, 32, 65, 0.25);
+}
+.barra-contraseña{
+position: absolute;
+width: 527px;
+height: 57px;
+left: 313px;
+top: 237px;
+
+background: #FFFFFF;
+
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 33px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+
+color: rgba(31, 32, 65, 0.25);
+}
+
+.botton-recuerdame{
+position: absolute;
+width: 29.17px;
+height: 29.17px;
+left: 313px;
+top: 319px;
+
+background: #FFFFFF;
+
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+
+.botton-text{
+position: absolute;
+width: 163px;
+height: 22px;
+left: 358px;
+top: 323px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+
+color: rgba(31, 32, 65, 0.5);
+}
+
+.botton-sesion{
+position: absolute;
+width: 204px;
+height: 38px;
+left: 636px;
+top: 319px;
+
+background: #1ED760;
+border-radius: 42px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.line{
+position: absolute;
+width: 527px;
+height: 0px;
+left: 313px;
+top: 445px;
+
+border: 1px solid rgba(101, 101, 101, 0.33);
+}
+.text-cuenta{
+position: absolute;
+width: 185px;
+height: 16px;
+left: 484px;
+top: 484px;
     
-    .logo-mateify{
-    position: absolute;
-    width: 37px;
-    height: 33px;
-    left: 495px;
-    top: 25px;
-    
-    }
-    .nombre-mateify{
-    position: absolute;
-    width: 183px;
-    height: 64px;
-    left: 543px;
-    top: 19px;
-        
-    font-family: Righteous;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
-        
-    color: #000000;
-    }
-    
-    .text-sesion{
-    position: absolute;
-    width: 279px;
-    height: 16px;
-    left: 451px;
-    top: 117px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    
-    color: #000000;
-    }
-    
-    .barra-nombre{
-    position: absolute;
-    width: 527px;
-    height: 57px;
-    left: 313px;
-    top: 170px;
-    
-    background: #FFFFFF;
-    
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 33px;
-    }
-    .barra-contraseña{
-    position: absolute;
-    width: 527px;
-    height: 57px;
-    left: 313px;
-    top: 237px;
-        
-    background: #FFFFFF;
-    
-        
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 33px;
-    }
-    
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+.button-registro{
+position: absolute;
+width: 204px;
+height: 38px;
+left: 474px;
+top: 525px;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 42px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+
+color: #000000;
+
+}

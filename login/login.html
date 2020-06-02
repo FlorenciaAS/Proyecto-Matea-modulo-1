@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="login.css"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,14 +20,28 @@
 
 <h2 class="text-sesion"> Para continuar,inicia sesion</h2>
 <section>
-    <input class="barra-nombre" type="text" name="correo electronico o nombre de usario">
-    <input class="barra-contraseña" type="text" name="constraseña">
+    <input class="barra-nombre" placeholder="correo electronico o nombre de usuario" type="text" name="correo electronico o nombre de usario">
+    <input class="barra-contraseña" placeholder="constraseña" type="text" name="constraseña">
     <button>Iniciar sesion</button>
     <h5 class="text-olvidar">¿Has olvidado la contraseña?</h5>
 
-<h6>________________________</h6>
-<h7>¿No tienes cuenta?</h7>
-<button>registrate</button>
+    <form action="/action_page.php">
+        <input class="botton-recuerdame" type="checkbox" id="recordar" name="recordar" value="Bike">
+        <label class="botton-text" for="recordar">Recuerdame</label>
+    </form>
+
+<button class="botton-sesion">Inicar sesion</button>
+
+
+
+
+
+
+
+
+<h6 class="line"></h6>
+<h7  class="text-cuenta">¿No tienes cuenta?</h7>
+<button class="button-registro">registrate</button>
 
 
 </section>

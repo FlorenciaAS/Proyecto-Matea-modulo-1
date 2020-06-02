@@ -1,52 +1,60 @@
-.container{
-    position: absolute;
-    width: 100%;
-    height: 83px;
-    left: 0px;
-    top: 0px;
+.navbar-custom {
+	background-color: #000000;
+}
+/*logo matea*/
+.logo-mateify {
+	margin-left: 60px;
+	margin-bottom: 10px;
+}
+/*Mateify*/
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+	color: #ffffff;
+	width: 183px;
+	height: 64px;
+	margin-top: 5px;
+	margin-left: -40px;
 
-
-background: #000000;
-
+	font-family: Righteous;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 5vh;
+	line-height: 40px;
 }
 
-.logo-mateify{
-    position: absolute;
-    width: 37px;
-    height: 33px;
-    left: 66px;
-    top: 25px;
+/* registrarte*/
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+	color: rgba(255, 255, 255, .8);
+	font-size: 20px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	margin-right: 50px;
+	margin-top: 5px;
 }
-.nombre-mateify{
-    position: absolute;
-    width: 183px;
-    height: 64px;
-    left: 114px;
-    margin-top:20px;
-
-    font-family: Righteous;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
-
-    color: #FFFFFF;
+input::-webkit-input-placeholder {
+	text-indent: 50px;
 }
-.usuario-mateify{
-    position: absolute;
-    width: 87px;
-    height: 30px;
-    left: 1200px;
-    top: 15px;
+.ml-aut .navbar-text2 {
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
-
+    
     color: #FFFFFF;
 }
+
+input::-webkit-input-placeholder {
+    text-indent: 50px;
+    
+.line-navbar{
+    border-bottom: solid 1px rgba(101, 101, 101, 0.33);
+    margin-bottom: 15px;
 
 .text{
 position: absolute;
@@ -71,7 +79,7 @@ height: 529px;
 left: 0px;
 top: 83px;
 
-background-image:url(https://bryantpark-prod.imgix.net/images/bryantpark_uploads/images/Latin_Festival_-_2017-06-09_-_Angelito_Jusay_%288%29.jpg?fit=min&w=1280&h=720);
+background-image: url(D:\Datos\Desktop\Proyecto-Matea-modulo-1\imagenesYlogos\4ukc8Nr.jpeg)
 background-repeat: no-repeat;
 background-size: 100%;
 }
@@ -140,47 +148,46 @@ top: 612px;
 background: #000000;
 }
 
-.fondo{
-    position: absolute;
-    width: 100%;
-    background: #000000;
+.line-footer{
+    border: 1px solid rgba(101, 101, 101, 0.33);
+    margin-top: 15px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: -15px;
+    margin-bottom: 10px;
 }
 .text-footer{
-    position: absolute;
+    display: inline-block;
     width: 242px;
-    height: 30px;
-    left: 66px;
-    top: 641px;
-
+    
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
-
+    
     color: #FFFFFF;
+    
+}
 
+.text-logo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
 }
 .text-footer2{
-    position: absolute;
-    width: 138px;
-    height: 30px;
-    left: 848px;
-    top: 641px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
+    display: inline-block;
 }
 .logo-Spotify{
-    position: absolute;
-    width: 111px;
-    height: 67px;
-    left: 980px;
-    top: 666px;
-
+    display: inline-block;
 }

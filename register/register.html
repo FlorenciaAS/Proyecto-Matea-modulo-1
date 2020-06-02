@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
-    <link rel="stylesheet" href="register.css"
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,13 +18,13 @@
         </nav>
     </header>
 
-<h2 class="text">Registrate con tu direccion de email</h2>
+<h2 class="text1">Registrate con tu direccion de email</h2>
 
 <section>
-    <input class="barra-correo" type="text" name="correo electronico">
-    <input class="barra-confirmar" type="text" name=" confirmar correo electronico">
-    <input class="barra-contraseña" type="text" name="contraseña">
-    <input class="barra-nombre" type="text" name="nombre de usuario">
+    <input class="barra-correo" placeholder="correo electronico" type="text" name="correo electronico">
+    <input class="barra-confirmar" placeholder="confirmar correo electronico" type="text" name=" confirmar correo electronico">
+    <input class="barra-contraseña" placeholder="contraseña" type="text" name="contraseña">
+    <input class="barra-nombre" placeholder="nombre de usuario" type="text" name="nombre de usuario">
 <h3>Fecha de nacimiento</h3>
 <select class="text-dia" id="dia">
     <option value="dia">dia</option>
@@ -72,27 +74,36 @@
     <option value="año">Año</option>
 
 
-    <input type="checkbox" id="sexo" name="sexo" value="femenino">
-    <label for="vehicle1"> Femenino </label><br>
-
-    <input type="checkbox" id="sexo" name="sexo" value="masculino">
-    <label for="vehicle1"> Masculino </label><br>
-
-    <input type="checkbox" id="sexo" name="sexo" value="Otro">
-    <label for="vehicle1"> Otro</label><br>
+    <form action="/action_page.php">
+        <input class="botton-man" type="checkbox" id="recordar" name="recordar" value="man">
+        <label class="botton-mantext" for="recordar">Masculino</label>
+    
+        <input class="botton-fem" type="checkbox" id="recordar" name="recordar" value="fem">
+        <label class="botton-femtext" for="recordar">Femenino</label>
+    
+        <input class="botton-otro" type="checkbox" id="recordar" name="recordar" value="otro">
+        <label class="botton-otrotext" for="recordar">Otro</label>
+    </form>
+    
 </section>
+
 <article>
 <button class="register">Registrarse</button>
-<h6></h6>
+<h6 class="line"></h6>
 
-<h7>¿ya tienes cuenta?</h7> 
+<h7 class="text-cuenta">¿ya tienes cuenta?</h7> 
 <button class="sesion">Incia sesion</button>
 </article>
 
-<footer class="fondo">
-    <h5 class="text-footer">Diseñado en Urguay</h5>
-    <h6 class="text-footer2">Powered by</h6>
-    <img class="logo-Spotify " src="../imagenesYlogos/Spotify Logo.png">
-</footer>
+<div class="line-footer"></div>
+    <footer class="page-footer font-small unique-color-dark pt-4 footer">
+        <h5 class="text-footer">Diseñado en Urguay</h5>
+    <div class="text-logo">
+        <h6 class="text-footer2">Powered by</h6>
+        <img class="logo-Spotify " src="../imagenesYlogos/Spotify Logo.png">
+    </div>
+    </footer>
+
+
 </body>
 </html>

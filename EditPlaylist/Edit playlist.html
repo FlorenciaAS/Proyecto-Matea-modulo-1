@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="Edit playlist.css">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="https://media-private.canva.com/-BmTc/MAD98Z-BmTc/1/s.png?response-expires=Mon%2C%2001%20Jun%202020%2020%3A06%3A12%20GMT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200601T175208Z&X-Amz-SignedHeaders=host&X-Amz-Expires=8043&X-Amz-Credential=AKIAJJATJK7JCUD446NA%2F20200601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5a2698d753c3bdd6eef15050bd67159283693476b8f85c510b060d6e4ed5ccf5" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/svg/733/733573.svg" />
 
 </head> 
 <body class="body">
@@ -32,12 +32,13 @@
         <h2 class="subtitulo">Vota las canciones para cambiar el orden en que se reproducen </h2>
     </div>
     <div class="bloque-songs">
-        <h2 class="songs">Resultados</h2>
+        <h2 class="songs d-none d-sm-none d-md-block">Resultados</h2>
     </div>
-    <div class="  bloque-tabla">
-        <table >
+    <div class="container">
+    <div class=" tabla-responsive-lg bloque-tabla">
+        <table class="tabla" >
             <tr>
-                <td>#</td>
+                <td class="d-none d-sm-none d-md-block">#</td>
                 <td>Votar</td>
                 <td>Titulo</td>
                 <td>Autor</td>
@@ -46,7 +47,7 @@
             </tr>
 
             <tr class="tabla-fila fila">
-                <td>1</td>
+                <td class="d-none d-sm-none d-md-block">1</td>
                 <td><img class="img-votar" src="../imagenesYlogos/Favourite.png"><img class="img_votar-margen" src="../imagenesYlogos/Favourite (1).png"></td>
                 <td>DameDame</td>
                 <td>Claydee feat</td>
@@ -55,7 +56,7 @@
             </tr>
 
             <tr class="fila">
-                <td>2</td>
+                <td class="d-none d-sm-none d-md-block">2</td>
                 <td><img class="img-votar" src="../imagenesYlogos/Favourite.png"><img class="img_votar-margen" src="../imagenesYlogos/Favourite (1).png"></td>
                 <td>Kamelia</td>
                 <td>DDY Nunes</td>
@@ -63,7 +64,7 @@
                 <td>3:30</td>
             </tr>
             <tr class="tabla-fila fila">
-                <td>3</td>
+                <td class="d-none d-sm-none d-md-block">3</td>
                 <td><img class="img-votar" src="../imagenesYlogos/Favourite.png"><img class="img_votar-margen" src="../imagenesYlogos/Favourite (1).png"></td>
                 <td>Laugh Till You Cry</td>
                 <td>Faydee</td>
@@ -71,8 +72,8 @@
                 <td>3:56</td>
             </tr>
             <tr class="fila">
-                <td>4</td>
-                <td><img class="img-votar" src="../imagenesYlogos/Favourite.png"><img class="img_votar-margen" src="../imagenesYlogos/Favourite (1).png"></td>
+                <td class="d-none d-sm-none d-md-block">4</td>
+                <td><img class="img-votar" src="../imagenesYlogos/Favourite.png"><img class=" img_votar-margen " src="../imagenesYlogos/Favourite (1).png"></td>
                 <td>I dont't know</td>
                 <td>Deejay Fly</td>
                 <td>12</td>
@@ -80,6 +81,7 @@
             </tr>
 
         </table>
+    </div>
     </div>
     <div class="show-more">
         <h2 class="text-sm">Show more</h2>

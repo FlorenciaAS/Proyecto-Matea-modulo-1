@@ -17,7 +17,10 @@ width: 37px;
 height: 33px;
 left: 495px;
 top: 25px;
-
+display: flex;
+flex-direction:row;
+justify-content:center;
+margin: 25px 50px 75px 100px;
 }
 .nombre-mateify{
 position: absolute;

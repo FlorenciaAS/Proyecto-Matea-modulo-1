@@ -49,8 +49,8 @@ input::-webkit-input-placeholder {
 .boton {
 	width: 213px;
 	height: 43px;
-	left: 889px;
-	top: 125px;
+	margin-left: 980px;
+	margin-top: -40px;
 
 	background: #1ed760;
 	border-radius: 42px;

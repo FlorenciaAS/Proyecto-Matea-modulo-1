@@ -6,14 +6,17 @@
     <title>New Plylist-Mateify</title>
     <link rel="stylesheet" href="Newplaylist.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/svg/733/733573.svg" />
 </head>
 <body class="body">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-custom ">
-            <a href="#" class="navbar-brand logo-mateify "><img src="../imagenesYlogos/LogoSoloBlancoFondoTransparente 1.png" alt=""></a>
+        <nav class="navbar navbar-expand navbar-custom ">
+            <a href="#" class="navbar-brand logo-mateify  d-none d-sm-none d-md-block "><img src="../imagenesYlogos/LogoSoloBlancoFondoTransparente 1.png" alt=""></a>
             
             <div class="navbar-collapse collapse" >
                 <ul class="navbar-nav">
@@ -21,16 +24,17 @@
                         <a class="nav-link " href="#">Mateify</a>
                     </li>
                 </ul>
-                <h1 class="ml-auto navbar-text">Usuario</h1>
+                <h1 class="  d-none d-sm-none d-md-block  ml-auto navbar-text">Usuario</h1>
             </div>
         </nav>
         <div class="line-navbar"></div>
     </header>
     <section>
         <div class="bloque-busqueda">
-            <h1 class="titulo-barra">Baila sin parar</h1>
+            <h1 class="titulo-barra d-none d-sm-none d-md-block">Baila sin parar</h1>
+            <h1 class="d-md-none d-lg-none d-sm-block titulo-barra-r">Nombra tu playlist</h1>
             <div class="line-titulo"></div>
-            <input  placeholder="Busca una cancion" class="barra-busqueda"   type="text" name="Reggaeton">
+            <input  placeholder="Busca una cancion" class="barra-busqueda d-none d-sm-none d-md-block"   type="text" name="Reggaeton">
         </div>
         <div class=" d-none d-sm-none d-md-block bloque-songs">
             <h2 class="songs">Canciones populares en tu zona</h2>
@@ -73,6 +77,41 @@
                     <td>3:56</td>
                 </tr>
                 <tr class="fila">
+                    <td class="d-none d-sm-none d-md-block">4</td>
+                    <td><img class="img-agregar" src="../imagenesYlogos/Playlist.png"></td>
+                    <td>I dont't know</td>
+                    <td>Deejay Fly</td>
+                    <td>21,528</td>
+                    <td>2:26</td>
+                </tr>
+
+
+                <tr class="tabla-fila fila d-md-none d-lg-none d-sm-block">
+                    <td class="d-none d-sm-none d-md-block">1</td>
+                    <td><img class="img-agregar" src="../imagenesYlogos/Playlist.png"></td>
+                    <td>DameDame</td>
+                    <td>Claydee feat</td>
+                    <td>39,566</td>
+                    <td>4:21</td>
+                </tr>
+    
+                <tr class="fila  d-md-none d-lg-none d-sm-block">
+                    <td class="d-none d-sm-none d-md-block">2</td>
+                    <td><img class="img-agregar" src="../imagenesYlogos/Playlist.png"></td>
+                    <td>Kamelia</td>
+                    <td>DDY Nunes</td>
+                    <td>32,420</td>
+                    <td>3:30</td>
+                </tr>
+                <tr class="tabla-fila fila d-md-none d-lg-none d-sm-block">
+                    <td class="d-none d-sm-none d-md-block">3</td>
+                    <td><img class="img-agregar" src="../imagenesYlogos/Playlist.png"></td>
+                    <td>Laugh Till You Cry</td>
+                    <td>Faydee</td>
+                    <td>28,221</td>
+                    <td>3:56</td>
+                </tr>
+                <tr class="fila d-md-none d-lg-none d-sm-block">
                     <td class="d-none d-sm-none d-md-block">4</td>
                     <td><img class="img-agregar" src="../imagenesYlogos/Playlist.png"></td>
                     <td>I dont't know</td>

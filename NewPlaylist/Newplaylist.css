@@ -83,6 +83,15 @@ line-height: 46px;
 
 color: #FFFFFF;
 }
+.titulo-barra-r{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 .line-titulo{
 	width: 370px;
 height: 0px;
@@ -121,6 +130,8 @@ table{
     overflow: hidden;
 }
 td, th {
+
+    height: 60px;
     text-align: left;
     padding: 20px;
     font-family: Montserrat;
@@ -129,19 +140,26 @@ td, th {
     font-size: 12px;
     line-height: 16px;
     color: rgb(250, 248, 248);
+    vertical-align: middle;
     
     
 }
 
+
 .tabla-fila{
-    background: #474545;
+  
+	background: #474545;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    
 
 }
 .fila{
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.5;
+    
+    
 
 }
 .img-agregar{
@@ -224,3 +242,23 @@ margin-left: 12px;
 .logo-Spotify{
     display: inline-block;
 }
+@media only screen and (max-width: 700px) {
+	.navbar-custom {
+        background-color: #1ed760;
+        height: 70px;
+	}
+	.navbar-custom .nav-item.active .nav-link,
+	.navbar-custom .nav-item:hover .nav-link {
+		font-family: Montserrat;
+		text-transform: uppercase;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 20px;
+		line-height: 24px;
+		margin-left: 175px;
+        
+		color: #ffffff;
+    }
+    .titulo-barra-r{
+        margin-top: 50px;
+    }

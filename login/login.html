@@ -5,41 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/svg/733/733573.svg" />
+
 </head>
 
 <body>
     <header>
-        <nav class="container">
-            <a href="#" class="logo-mateify "><img src="../imagenesYlogos/logo_black.png" alt=""></a>
-            <h1 class="nombre-mateify">Mateify</h1>
-        </nav>
+            <div class= "d-flex align-items-center justify-content-center mt-4">
+                <h1 class="nombre-mateify text-center d-inline-flex"> <img class="logo-mateify  d-none d-md-block" src="../imagenesYlogos/logo_black.png" alt="">Mateify</h1>
+            </div>
+        
     </header>
 
-<h2 class="text-sesion"> Para continuar,inicia sesion</h2>
-<section>
-    <input class="barra-nombre" placeholder="correo electronico o nombre de usuario" type="text" name="correo electronico o nombre de usario">
-    <input class="barra-contraseña" placeholder="constraseña" type="text" name="constraseña">
-    <button>Iniciar sesion</button>
-    <h5 class="text-olvidar">¿Has olvidado la contraseña?</h5>
-
-    <form action="/action_page.php">
-        <input class="botton-recuerdame" type="checkbox" id="recordar" name="recordar" value="Bike">
-        <label class="botton-text" for="recordar">Recuerdame</label>
-    </form>
-
-<button class="botton-sesion">Inicar sesion</button>
-
-<h6 class="line"></h6>
-<h7  class="text-cuenta">¿No tienes cuenta?</h7>
-<button class="button-registro">registrate</button>
 
 
-</section>
+
+<div class= "d-flex flex-column align-items-center justify-content-between container"> 
+    <div> 
+    <strong class="text-sesion"> para continuar,inicia sesion </strong> 
+    </div>  
+
+        <input class="barra-nombre w-50 mt-3"  placeholder="correo electronico o nombre de usuario" type="text" name="correo electronico o nombre de usario">     
+
+    
+        <input class="barra-contraseña w-50 mt-3" placeholder="constraseña" type="text" name="constraseña">
+
+    <div class="mt-4 d-flex flex-column flex-md-row justify-content-between w-50">
+        <div class="d-flex-inline d-flex align-items-center">
+        <div>  
+            <input class="botton-recuerdame"type="checkbox" id="recordar" name="recordar" value="Bike">
+            </div>
+            <div class="ml-3"> 
+            <h4 class="botton-text " for="recordar">Recuerdame</h4>
+            </div>
+        </div> 
+        <button class=" btn btn-success botton-sesion  mt-3 mt-md-0 ">Inicar sesion</button>   
+    </div>      
+    
+
+    
+    <div>
+        <h1 class="text-olvidar mt-3">¿Has olvidado la contraseña?</h1> 
+    </div>
+    
+<hr class="line">
+
+<div class="d-flex justify-content-center flex-column"> 
+    <h6 class="text-cuenta text-center">¿No tienes cuenta?</h6>
+    <button class="button-registro text-center d-none d-md-block btn mt-3">registrate</button>   
+    <button class="button-registro-mobile btn btn-link d-block d-md-none text-center"> Registrate </button> 
+</div>
+
+</div>
+
+
 
 </body>
 </html>

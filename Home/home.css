@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .body{
     background-image: url(../imagenesYlogos/background\ color.png);
     background-repeat: no-repeat;
@@ -6,14 +5,6 @@
 
 
 }
-=======
-.body {
-background-image: url(../imagenesYlogos/image.png);
-background-repeat: no-repeat;
-background-size: 100%;
-}
-
->>>>>>> 0c1a93e2e6812c4efca50eaa103f8692608f9d58
 .navbar-custom {
 	background-color: #000000;
 }
@@ -71,42 +62,12 @@ input::-webkit-input-placeholder {
 .line-navbar{
     border-bottom: solid 1px rgba(101, 101, 101, 0.33);
     margin-bottom: 15px;
-<<<<<<< HEAD
 }
 
 .container-text{
 display: flex;
 flex-direction: row;
 justify-content: center;
-=======
-}
-
-.conteiner-text{
-display: flex;
-flex-direction: row;
-justify-content: center;
-}
-
-.text{
-    width: 797px;
-    height: 30px;
-    left: 177px;
-    top: 183px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 61px;
-    
-    color: #FFFFFF;
-}
-
-.container2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
->>>>>>> 0c1a93e2e6812c4efca50eaa103f8692608f9d58
 
 }
 .text{
@@ -115,7 +76,6 @@ justify-content: center;
     margin-left: 10px;
     margin-top: 100px;
 
-<<<<<<< HEAD
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
@@ -123,7 +83,7 @@ justify-content: center;
     line-height: 61px;
     text-transform: uppercase;
     color: #FFFFFF;
-=
+}
 .barra-busqueda{
     width: 738px;
     height: 57px;
@@ -151,8 +111,8 @@ font-weight: normal;
 font-size: 22px;
 line-height: 24px;
 
-color: rgba(31, 32, 65, 0.25);   
->>>>>>> 0c1a93e2e6812c4efca50eaa103f8692608f9d58
+color: rgba(31, 32, 65, 0.25);
+
 }
 .barra-busqueda{
     width: 738px;

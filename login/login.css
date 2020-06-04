@@ -1,7 +1,19 @@
-
+.imagen-fondo{
+    z-index: -1;
+    position:fixed;
+    background-size: cover;
+    top:0px;
+    height: 100%;
+    }
+.container{
+background-color: white;
+}
 .logo-mateify{
 width: 37px;
 height: 33px;
+}
+.nombre-mobile{
+    filter: invert(1);
 }
 
 .nombre-mateify{

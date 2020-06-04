@@ -1,74 +1,43 @@
-.container{
-position: absolute;
-width: 100%;
-height: 83px;
-left: 1px;
-top: 0px;
-
-background: #FFFFFF;
+.imagen-fondo{
+z-index: -1;
+position:fixed;
+background-size: cover;
+top:0px;
+height: 100%;
 }
-
+.container{
+background-color: white;
+}
 .logo-mateify{
-position: absolute;
 width: 37px;
 height: 33px;
-left: 495px;
-top: 25px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
-}
-.nombre-mateify{
-position: absolute;
-width: 183px;
-height: 64px;
-left: 543px;
-top: 19px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
 
+}
+
+.nombre-mateify{ 
 font-family: Righteous;
 font-style: normal;
 font-weight: normal;
 font-size: 32px;
 line-height: 40px;
-
 color: #000000;
 }
-
-.text1{
-position: absolute;
-width: 342px;
-height: 16px;
-left: 405px;
-top: 118px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
-
-
+.nombre-mobile{
+filter: invert(1);
+}
+.container .text-sesion{
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 22px; 
+line-height: 22px;
+
 color: #000000;
 }
 
 .barra-correo{
-position: absolute;
-width: 527px;
+
 height: 57px;
-left: 313px;
-top: 170px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
 background: #FFFFFF;
 border: 1px solid rgba(31, 32, 65, 0.25);box-sizing: border-box;border-radius: 33px;
 
@@ -81,15 +50,8 @@ color: rgba(31, 32, 65, 0.25);
 }
 
 .barra-confirmar{
-position: absolute;
-width: 527px;
 height: 57px;
-left: 313px;
-top: 242px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
 background: #FFFFFF;
 
 border: 1px solid rgba(31, 32, 65, 0.25);
@@ -104,15 +66,8 @@ color: rgba(31, 32, 65, 0.25);
 }
 
 .barra-contraseña{
-position: absolute;
-width: 527px;
 height: 57px;
-left: 313px;
-top: 314px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
 background: #FFFFFF;
 
 border: 1px solid rgba(31, 32, 65, 0.25);
@@ -127,15 +82,8 @@ line-height: 24px;
 color: rgba(31, 32, 65, 0.25);
 }
 .barra-nombre{
-position: absolute;
-width: 527px;
 height: 57px;
-left: 312px;
-top: 387px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
 background: #FFFFFF;
 
 border: 1px solid rgba(31, 32, 65, 0.25);
@@ -150,16 +98,23 @@ line-height: 24px;
 
 color: rgba(31, 32, 65, 0.25);
 }
+
+.text-nacimiento{
+
+height: 18px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+
+color: rgba(31, 32, 65, 0.25);
+}
+
 .text-dia{
-position: absolute;
-width: 90px;
 height: 56.43px;
-left: 316px;
-top: 490px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
 background: #FFFFFF;
 
 border: 1px solid rgba(31, 32, 65, 0.25);
@@ -174,16 +129,10 @@ line-height: 24px;
 
 color: rgba(31, 32, 65, 0.25);
 }
+
 .text-mes{
-position: absolute;
-width: 211px;
 height: 56.43px;
-left: 431px;
-top: 490.44px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
 background: #FFFFFF;
 
 border: 1px solid rgba(31, 32, 65, 0.25);
@@ -198,15 +147,9 @@ line-height: 24px;
 color: rgba(31, 32, 65, 0.25);
 }
 .text-año{
-position: absolute;
-width: 173px;
+
 height: 56.43px;
-left: 666px;
-top: 490.44px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
 background: #FFFFFF;
 
 border: 1px solid rgba(31, 32, 65, 0.25);
@@ -221,31 +164,23 @@ line-height: 24px;
 
 color: rgba(31, 32, 65, 0.25);
 }
+
+
+
 .botton-man{
-position: absolute;
-width: 20px;
+
 height: 20px;
-left: 316px;
-top: 581.44px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
+
 background: #FFFFFF;
 border: 1px solid rgba(31, 32, 65, 0.25);
 box-sizing: border-box;
 border-radius: 10px;
 }
 .botton-mantext{
-    position: absolute;
-    width: 74px;
+ 
     height: 24px;
-    left: 346px;
-    top: 581.44px;
-    display: flex;
-    flex-direction:row;
-    justify-content:center;
-    margin: 25px 50px 75px 100px;
+   
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -256,30 +191,19 @@ border-radius: 10px;
 }
 
 .botton-fem{
-    position: absolute;
-    width: 20px;
+
     height: 20px;
-    left: 447px;
-    top: 581.44px;
-    display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
     background: #FFFFFF;
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
     border-radius: 10px;
 }
 .botton-femtext{
-    position: absolute;
-    width: 74px;
+
+
     height: 24px;
-    left: 476.74px;
-    top: 581px;
-    display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -289,15 +213,9 @@ margin: 25px 50px 75px 100px;
     color: rgba(31, 32, 65, 0.25);
 }
 .botton-otro{
-    position: absolute;
-    width: 20px;
+
     height: 20px;
-    left: 580px;
-    top: 581.44px;
-    display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
     background: #FFFFFF;
 
     border: 1px solid rgba(31, 32, 65, 0.25);
@@ -305,15 +223,9 @@ margin: 25px 50px 75px 100px;
     border-radius: 10px;
 }
 .botton-otrotext{
-    position: absolute;
-    width: 33px;
-    height: 24px;
-    left: 609.74px;
-    top: 581px;
-    display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
+height: 24px;
+
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -322,19 +234,11 @@ margin: 25px 50px 75px 100px;
 
     color: rgba(31, 32, 65, 0.25);
 }
-.register{
-position: absolute;
-width: 191px;
+.container .register{
 height: 38px;
-left: 480px;
-top: 647px;
-
 background: #1ED760;
 border-radius: 42px;   
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -345,49 +249,32 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .line{
-    position: absolute;
     width: 527px;
     height: 0px;
-    left: 313px;
-    top: 738px;
-    display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
     border: 1px solid rgba(101, 101, 101, 0.33);
 }
 .text-cuenta{
-    position: absolute;
-    width: 185px;
+
     height: 16px;
     left: 484px;
-    top: 782px;
-    display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
+
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
+    text-decoration: none;
     
     color: #000000;
-}
-.sesion{
-    position: absolute;
-width: 204px;
-height: 38px;
-left: 470px;
-top: 824px;
-display: flex;
-flex-direction:row;
-justify-content:center;
-margin: 25px 50px 75px 100px;
-background: #FFFFFF;
-border: 2px solid #000000;
-box-sizing: border-box;
-border-radius: 42px;
+}    
+.container .sesion{
+
+    height: 38px;
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 42px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -397,6 +284,21 @@ line-height: 20px;
 text-transform: uppercase;
 
 color: #000000;
+}
+
+.container .button-sesion-mobile{
+
+    height: 16px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    
+    color: rgba(31, 32, 65, 0.5);
+    
 }
 .fondo{
     

@@ -5,106 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
     <link rel="stylesheet" href="register.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     
 </head>
 <body>
+
+<img src="image.png" class=" d-md-none d-block imagen-fondo">
     <header>
-        <nav class="container">
-            <a href="#" class="logo-mateify "><img src="../imagenesYlogos/logo_black.png" alt=""></a>
-            <h1 class="nombre-mateify">Mateify</h1>
-        </nav>
-    </header>
+        <div class= "d-flex align-items-center justify-content-center mt-4">
+            <h1 class="nombre-mateify text-center d-none d-md-inline-flex"> <img class="logo-mateify d-none d-md-block" src="../imagenesYlogos/logo_black.png" alt="">Mateify</h1>
+        <h1 class="nombre-mateify nombre-mobile text-center d-block d-md-none">Mateify</h1>
+        </div>
+    
+</header>
 
-<h2 class="text1">Registrate con tu direccion de email</h2>
+<div class= "d-flex flex-column align-items-center justify-content-between container"> <!--abarca todo-->
+<div> 
+    <strong class="text-sesion"> Registrate con tu direccion de email </strong> 
+</div> 
 
-<section>
-    <input class="barra-correo" placeholder="correo electronico" type="text" name="correo electronico">
-    <input class="barra-confirmar" placeholder="confirmar correo electronico" type="text" name=" confirmar correo electronico">
-    <input class="barra-contraseña" placeholder="contraseña" type="text" name="contraseña">
-    <input class="barra-nombre" placeholder="nombre de usuario" type="text" name="nombre de usuario">
-<h3>Fecha de nacimiento</h3>
-<select class="text-dia" id="dia">
+<div class="w-100 col-12 col-md-6"> 
+    
+    <input class="barra-correo w-100  mt-3" placeholder="correo electronico" type="text" name="correo electronico">
+
+    <input class="barra-confirmar w-100 mt-3" placeholder="confirmar correo electronico" type="text" name=" confirmar correo electronico">
+
+    <input class="barra-contraseña w-100 mt-3" placeholder="contraseña" type="text" name="contraseña">
+
+    <input class="barra-nombre w-100 mt-3" placeholder="nombre de usuario" type="text" name="nombre de usuario">
+
+</div>
+
+<div class="w-100 col-12 col-md-6">
+    <h3 class="text-nacimiento mt-3 ">Fecha de nacimiento</h3>
+</div>
+
+<div class="mt-4 d-flex flex-row w-100 col-12 col-md-6 justify-content-between">
+
+<select class="text-dia w-25" id="dia">
     <option value="dia">dia</option>
-  <option value="dia">1</option>
-  <option value="dia">2</option>
-  <option value="dia">3</option>
-  <option value="dia">4</option>
-  <option value="dia">5</option>
-  <option value="dia">6</option>
-  <option value="dia">7</option>
-  <option value="dia">8</option>
-  <option value="dia">9</option>
-  <option value="dia">10</option>
-  <option value="dia">11</option>
-  <option value="dia">12</option>
-  <option value="dia">13</option>
-  <option value="dia">14</option>
-  <option value="dia">15</option>
-  <option value="dia">16</option>
-  <option value="dia">17</option>
-  <option value="dia">18</option>
-  <option value="dia">19</option>
-  <option value="dia">20</option>
-  <option value="dia">21</option>
-  <option value="dia">22</option>
-  <option value="dia">23</option>
-  <option value="dia">24</option>
-  <option value="dia">25</option>
-  <option value="dia">26</option>
-  <option value="dia">27</option>
-  <option value="dia">28</option>
-  <option value="dia">29</option>
-  <option value="dia">30</option>
-  <option value="dia">31</option>
- 
-
-
-
-
 </select>
 
-<select class="text-mes" id="mes">
+<select class="text-mes w-25" id="mes">
     <option value="mes">mes</option>
 </select>
 
-<select class="text-año" id="año">
+<select class="text-año w-25" id="año">
     <option value="año">Año</option>
+</select>
+</div>
 
 
-    <form action="/action_page.php">
-        <input class="botton-man" type="checkbox" id="recordar" name="recordar" value="man">
-        <label class="botton-mantext" for="recordar">Masculino</label>
-    
-        <input class="botton-fem" type="checkbox" id="recordar" name="recordar" value="fem">
-        <label class="botton-femtext" for="recordar">Femenino</label>
-    
-        <input class="botton-otro" type="checkbox" id="recordar" name="recordar" value="otro">
-        <label class="botton-otrotext" for="recordar">Otro</label>
-    </form>
-    
-</section>
+<div class=" d-flex  flex-row justify-content-start w-100 col-12 col-md-6 mt-3"> 
 
-<article>
-<button class="register">Registrarse</button>
+<div class="d-flex justify-content-center flex-row ">
+    <input class="botton-man mr-2" type="checkbox" id="recordar" name="recordar" value="man">
+    <label class="botton-mantext" for="recordar">Masculino</label>
+</div>
+
+<div class="ml-3 mr-3 d-flex justify-content-center flex-row "> 
+    <input class="botton-fem mr-2" type="checkbox" id="recordar" name="recordar" value="fem">
+    <label class="botton-femtext" for="recordar">Femenino</label>    
+</div>
+
+<div class="d-flex justify-content-center flex-row " > 
+    <input class="botton-otro mr-2 " type="checkbox" id="recordar" name="recordar" value="otro">
+    <label class="botton-otrotext" for="recordar">Otro</label>
+</div>
+
+</div>
+<div>
+    <button class=" btn btn-success register mb-4 mt-4">Registrarse</button>
+</div>
+
 <h6 class="line"></h6>
 
-<h7 class="text-cuenta">¿ya tienes cuenta?</h7> 
-<button class="sesion">Incia sesion</button>
-</article>
+<divd-flex class= "d-flex justify-content-center flex-column mb-5" > 
+<a class=" text-cuenta text-uppercase text-center">¿ya tienes cuenta?</a> 
+<button class="sesion text-center d-none d-md-block  mt-3">inica sesion</button>   
 
-<div class="line-footer"></div>
+<button class="button-sesion-mobile btn btn-link d-block d-md-none text-center"> Inicia sesion con tu cuenta </button> 
+</div>
+
+</div>
+
+<div class="line-footer d-none d-md-block ">
     <footer class="page-footer font-small unique-color-dark pt-4 footer">
         <h5 class="text-footer">Diseñado en Urguay</h5>
     <div class="text-logo">
         <h6 class="text-footer2">Powered by</h6>
         <img class="logo-Spotify " src="../imagenesYlogos/Spotify Logo.png">
     </div>
-    </footer>
-
+    </footer> 
 
 </body>
 </html>

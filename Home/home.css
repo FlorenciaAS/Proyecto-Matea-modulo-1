@@ -1,9 +1,13 @@
-.body{
-    background-image: url(../imagenesYlogos/background\ color.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-
-
+.imagen-fondo{
+    z-index: -1;
+    position:fixed;
+    background-size: cover;
+    top:0px;
+    height: 100%;
+    background-color: black;
+    }
+body{
+    background-color: black;
 }
 .navbar-custom {
 	background-color: #000000;
@@ -64,6 +68,10 @@ input::-webkit-input-placeholder {
     margin-bottom: 15px;
 }
 
+.header-mobile img{
+width: 82px;
+height: 73px;
+}
 .container-text{
 display: flex;
 flex-direction: row;
@@ -71,18 +79,58 @@ justify-content: center;
 
 }
 .text{
-    width: 797px;
+    
     height: 30px;
-    margin-left: 10px;
-    margin-top: 100px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800px;
+    font-size:4vw;
+    line-height: 61px;
+    
+    color: #FFFFFF;
+    
+
+}
+
+.playlist-mobile{ 
+    height: 30px;
+
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.vota-mobile{
+    height: 30px;
+
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button-sesion-mobile{
+
+    height: 16px;
 
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 61px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    
+    color: rgba(31, 32, 65, 0.5);
+    
 }
 .barra-busqueda{
     width: 738px;
@@ -115,14 +163,21 @@ color: rgba(31, 32, 65, 0.25);
 
 }
 .barra-busqueda{
-    width: 738px;
+
     height: 57px;
-    margin-left: 310px;
-    margin-top: 60px;
+
     background: #FFFFFF;
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
     border-radius: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;
+
+    color: rgba(31, 32, 65, 0.25);
 }
 .newplay{
     display: flex;
@@ -149,18 +204,13 @@ color: rgba(31, 32, 65, 0.25);
 }
 
 .line-footer{
-    border: 1px solid rgba(101, 101, 101, 0.33);
-    margin-top: 105px;
+border: 1px solid rgba(101, 101, 101, 0.33);
+margin-top: 105px;
 }
 .footer{
     background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 2px;
-    margin-right: 2px;
-    margin-top: 0px;
+    bottom:0px;
+    position: fixed;
 }
 .text-footer{
     display: inline-block;
@@ -186,9 +236,8 @@ color: rgba(31, 32, 65, 0.25);
     color: #FFFFFF;
 }
 .text-footer2{
-    display: inline-block;
+
 }
 .logo-Spotify{
-    display: inline-block;
-}
 
+}

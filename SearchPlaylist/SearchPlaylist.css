@@ -110,6 +110,10 @@ input::-webkit-input-placeholder {
 	justify-content: space-evenly;
 	margin-top: 20px;
 }
+.img:hover{
+width: 150px;
+height: 150px;
+}
 
 .container1 {
 	display: inline-block;
@@ -202,3 +206,109 @@ input::-webkit-input-placeholder {
 .logo-Spotify{
     display: inline-block;
 }
+
+
+
+@media only screen and (max-width: 700px) {
+.body{
+	background-image: url(../imagenesYlogos/background\ color.png);
+	background-repeat: no-repeat;
+	
+}
+.navbar-custom{
+	background-color: transparent;
+	margin-top: 90px;
+	margin-left: 140px;	
+}
+.bloque-mobile{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.titulo-mobile{
+	width: 317px;
+height: 30px;
+margin-left: 90px;
+margin-top: 10px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.subtitulo-mobile{
+	width: 317px;
+height: 32px;
+margin-left: 85px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.barra-busqueda{
+	width: 380px;
+	height: 55px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.button-mobile{
+	width: 380px;
+height: 53px;
+margin-left: 50px;
+margin-top: 30px;
+border-style: none;
+background: #1ED760;
+border-radius: 42px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.register-mobile{
+	width: 105px;
+	height: 16px;
+	margin-left: 200px;
+	margin-top: 70px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: uppercase;
+	
+	color: #FFFFFF;
+}
+.inicio-mobile{
+	width: 105px;
+height: 16px;
+margin-left: 195px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 20px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.text-logo{
+	margin-left:100px;
+	
+}
+}
+
+
+
